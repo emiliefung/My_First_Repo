@@ -1,0 +1,22 @@
+nav {
+    height: 125px;
+    width: 550px;
+    background-color: #3C3C3C;
+}
+
+.inline-block {
+    display: inline-block;
+    padding-right: 67px;
+    position: relative;
+    top: 52px;
+    left: 608px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    left: 122px;
+}
