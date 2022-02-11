@@ -1,0 +1,79 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  grid-template-areas:
+  "hover hover2 hover3 hover4"
+  ;
+  height: 500px;
+}
+.hoverMe {
+  grid-area: hover;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  /* Add the css property transition here! */
+  transition: 0.3s;
+}
+/* active state */
+.hoverMe:hover {
+  /* Add your hover state css here. */
+  background-color: lightpink;
+  color: #3c3c3c;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.hoverMe2 {
+  grid-area: hover2;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  /* Add the css property transition here! */
+  transition: 0.3s;
+}
+.hoverMe2:hover {
+  /* Add your hover state css here. */
+  transform: scale(.75);
+}
+
+.hoverMe3 {
+  grid-area: hover3;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  /* Add the css property transition here! */
+  transition: 0.3s;
+}
+.hoverMe3:hover {
+  /* Add your hover state css here. */
+  transform: scale(1.25);
+}
+
+.hoverMe4 {
+  grid-area: hover4;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  /* Add the css property transition here! */
+  transition: 0.3s;
+}
+.hoverMe4:hover {
+  /* Add your hover state css here. */
+  background-color: lightpink;
+  color: #3c3c3c;
+  font-weight: bolder;
+  box-shadow: 5px 5px 10px grey;
+}
